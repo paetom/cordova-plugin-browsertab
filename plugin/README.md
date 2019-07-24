@@ -1,6 +1,6 @@
 # cordova-plugin-browsertab
 
-Note: This is not an official Google product.
+Note: This is not an official Google product..
 
 ## About
 
