@@ -11,14 +11,12 @@
  * express or implied. See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.google.cordova.plugin.browsertab;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
-import android.support.customtabs.CustomTabsIntent;
 import android.util.Log;
 
 import java.util.Iterator;
@@ -35,6 +33,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.graphics.Color;
+
+import androidx.browser.customtabs.CustomTabsIntent;
 
 /**
  * Cordova plugin which provides the ability to launch a URL in an
